@@ -7,10 +7,10 @@
 .banner {
   margin-top: 4%;
   margin-bottom: -0.3%;
-  width: 99.6%;
+  width: 99.7%;
   height: 50vh;
   border-style: solid;
-  border-color: lightslategrey;
+  border-color: rgb(99, 104, 109);
 }
 
 .btn,
@@ -47,7 +47,7 @@
   margin-top: 0;
   margin-bottom: 0%;
   border-style: solid;
-  border-color: lightslategrey;
+  border-color: rgb(99, 104, 109);
   text-align: center;
   display: block;
 }
@@ -61,7 +61,8 @@
 .section {
   display: inline-table;
   position: absolute;
-  margin-top: 1rem;
+  margin-top: 0.5%;
+  margin-right: 4%;
 }
 
 .h2-sect {
