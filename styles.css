@@ -1,0 +1,78 @@
+.header,
+.main {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.banner {
+  margin-top: 4%;
+  margin-bottom: -0.3%;
+  width: 100%;
+  height: 50vh;
+}
+
+.btn,
+.btn2 {
+  text-decoration-line: none;
+  background-color: rgb(068, 114, 196);
+  color: aliceblue;
+  border-bottom: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 4px 10px;
+  box-shadow: 4px 4px 4px gray;
+  font-size: 200%;
+}
+
+.btn2 {
+  background-color: rgb(112, 173, 071);
+}
+
+#titulo {
+  position: absolute;
+  margin: 0%;
+  font-size: 3vw;
+}
+
+#nav {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 40%;
+}
+
+#subtitulo {
+  margin-top: 0.5%;
+  margin-bottom: 0%;
+  border-style: solid;
+  text-align: center;
+  display: block;
+}
+
+.logo {
+  width: 18%;
+  text-align: left;
+  margin-top: -1.5%;
+}
+
+.section {
+  display: inline-table;
+  position: absolute;
+  margin-top: 1rem;
+}
+
+.h2-sect {
+  margin-left: 20px;
+}
+
+.article {
+  padding-left: 20px;
+}
+
+.h3-art {
+  margin-bottom: -0.8rem;
+}
+
+.p-art {
+  text-indent: 20px;
+}
