@@ -57,6 +57,12 @@
   text-align: left;
   margin-top: -1.5%;
 }
+.fotos{
+  margin-top: 0.5%;
+  width: 25vw;
+  height: 35vh;
+ text-align: left;
+}
 
 .section {
   display: inline-table;
