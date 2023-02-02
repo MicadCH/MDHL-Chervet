@@ -1,86 +1,170 @@
+/*---------HTML FONDO---------*/
+html {
+  background-image: url(./assets/fondo.jpg);
+  background-repeat: round;
+}
+/*-------HEADER Y MAIN--------*/
 .header,
 .main {
   margin-left: 3%;
   margin-right: 3%;
 }
 
-.banner {
-  margin-top: 4%;
-  margin-bottom: -0.3%;
-  width: 99.7%;
-  height: 50vh;
-  border-style: solid;
-  border-color: rgb(99, 104, 109);
+/*-------------BODY-----------*/
+.body {
+  margin: 0;
 }
 
+/*---------TITULO MDHL--------*/
+.titulo {
+  font-style: oblique;
+  display: contents;
+  font-size: 3vw;
+  color: rgb(250, 112, 88);
+}
+
+/*-------BANNER IMAGEN--------*/
+.banner {
+  border-radius: 30px;
+  width: 80vw;
+  height: 50vh;
+  border-color: rgb(250, 112, 88);
+  border-style: solid;
+}
+
+/*--------LOGO DERECHA--------*/
+.logo {
+  width: 16%;
+  position: absolute;
+  right: 2%;
+  left: 84%;
+}
+
+/*------CONTAINER HEADER------*/
+.container-header {
+  display: flex;
+  flex-direction: column;
+  position: static;
+}
+
+/*------------NAV-------------*/
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  position: absolute;
+  border-style: outset;
+  border-color: #fa7058;
+  border-radius: 10px;
+}
+
+/*-------BOTONES DEL NAV------*/
 .btn,
 .btn2 {
+  margin: 3%;
+  border-radius: 10px;
   text-decoration-line: none;
-  background-color: rgb(068, 114, 196);
-  color: aliceblue;
-  border-bottom: 20px;
-  border-width: 1px;
+  text-align: center;
+  background-color: rgb(241, 219, 118);
+  color: rgb(194, 68, 68);
+  border-width: 3px;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(250, 112, 88);
   padding: 4px 10px;
   box-shadow: 4px 4px 4px gray;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 .btn2 {
-  background-color: rgb(112, 173, 071);
+  background-color: rgb(255, 89, 0, 50%);
+  color: rgb(245 245 245);
 }
 
-#titulo {
-  position: absolute;
-  margin: 0%;
-  font-size: 3vw;
-}
-
-#nav {
-  position: absolute;
-  margin-top: 3%;
-  margin-left: 60%;
-}
-
-#subtitulo {
-  margin-top: 0;
-  margin-bottom: 0%;
+/*----------SUBTITULO---------*/
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  margin-left: 20vh;
+  margin-right: 15%;
   border-style: solid;
-  border-color: rgb(99, 104, 109);
+  border-color: rgb(250, 112, 88);
   text-align: center;
-  display: block;
+  border-radius: 10px;
+  color: rgb(250, 112, 88);
+  background-color: rgb(243, 226, 181);
 }
 
-.logo {
-  width: 18%;
-  text-align: left;
-  margin-top: -1.5%;
+#h2 {
+  margin: 0.5%;
 }
 
-.section {
-  display: inline-table;
-  position: absolute;
+/*----------SECTION-----------*/
+.conteiner-section {
+  display: flex;
+  flex-direction: row;
+  color: rgb(53, 122, 113);
+}
+
+/*-----IMAGEN DEL SECTION-----*/
+.foto-section {
+  border-radius: 25px;
   margin-top: 0.5%;
-  margin-right: 4%;
+  width: 25vw;
+  height: 35vh;
+  margin-left: 20vh;
+}
+
+/*---------ARTICULOS----------*/
+.article {
+  padding-left: 1%;
+  padding-right: 15%;
 }
 
 .h2-sect {
   margin-left: 20px;
 }
 
-.article {
-  padding-left: 20px;
-}
-
 .h3-art {
+  font-size: 25px;
+  margin-bottom: -0.8rem;
+}
+.p-art {
+  font-size: 20px;
+  text-indent: 20px;
+}
+.h3-cont {
+  font-weight: normal;
   margin-bottom: -0.8rem;
 }
 
-.p-art {
-  text-indent: 20px;
+/*--------LOGO DE ABAJO-------*/
+.logo2 {
+  width: 10%;
+  position: fixed;
+  z-index: 2;
+  bottom: 3%;
+  right: 10px;  transition: 1s;
 }
-.h3-cont{
-    font-weight: normal;
-    margin-bottom: -0.8rem;
+.img-logo:hover{  
+  transform: scale(70%);
+}
+
+/*-----------FOOTER-----------*/
+.container-footer {
+  background-color: #58aaad;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+.p-footer {
+  color: rgb(53, 116, 105);
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin: 0.5rem;
+  margin: 0;
+}
+.span-footer {
+  font-weight: bold;
+  color: #9be0ec;
 }
