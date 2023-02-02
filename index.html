@@ -10,43 +10,53 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
-    <!--HEADER-->
+<body class="body">
     <header class="header">
-        <!--NAV-->
-        <nav id="nav">
-            <a href="#" class="btn2">Home</a> |
-            <a href="./about.html" class="btn">About MDHL</a> |
+        <div class="container-header">
+            <h1 class="titulo">Mighty Ducks Hockey League</h1>
+            <img class="banner" src="assets/design1_image1.jpg" alt="Banner">
+            <img class="logo" src="/assets/Logo_Mighty_ducks-01.png" alt="Logo">
+        </div>
+        <nav class="container-nav">
+            <a href="#" class="btn2">Home</a>
+            <a href="./about.html" class="btn">About MDHL</a>
             <a href="./contact.html" class="btn">Contact</a>
+            <a href="./game_info.html" class="btn">Game Info</a>
+            <a href="./rules.html" class="btn">Rules</a>
         </nav>
-        <h1 id="titulo">Mighty Ducks Hockey League</h1>
-        <img class="banner" src="assets/design1_image1.jpg" alt="Banner">
-        <h2 id="subtitulo">Upcoming Events</h2>
+        <div class="subtitulo">
+            <h2 id="h2">Upcoming Events</h2>
+        </div>
     </header>
-    <!--MAIN-->
-    <main class="main">
-        <img class="logo" src="/assets/Logo_Mighty_ducks-01.png" alt="Logo">
-        <!--SECTION-->
-        <section class="section">
-            <h2 class="h2-sect">Upcoming Events</h2>
-            <!--ARTICLE-->
-            <article class="article">
-                <h3 class="h3-art">August 4</h3>
-                <p class="p-art">MDSL Fundraiser</p>
-            </article>
-            <!--ARTICLE-->
-            <article class="article">
-                <h3 class="h3-art">August 16</h3>
-                <p class="p-art">Season Kick-off: Meet the Teams</p>
-            </article>
-            <!--ARTICLE-->
-            <article class="article">
-                <h3 class="h3-art">September 1</h3>
-                <p class="p-art">First Game of the Season (Check Game Schedule for details)</p>
-            </article>
 
+    <main class="main">
+        <section class="conteiner-section">
+            <img class="foto-section" src="/assets/hockey_1.jpg" alt="foto1">
+            <div class="article">
+                <article>
+                    <h3 class="h3-art">August 4</h3>
+                    <p class="p-art">MDSL Fundraiser</p>
+                </article>
+                <article>
+                    <h3 class="h3-art">August 16</h3>
+                    <p class="p-art">Season Kick-off: Meet the Teams</p>
+                </article>
+                <article>
+                    <h3 class="h3-art">September 1</h3>
+                    <p class="p-art">First Game of the Season (Check Game Schedule for details)</p>
+                </article>
+            </div>
         </section>
+        <img class="logo2 img-logo" src="/assets/Logo_Mighty_ducks-01.png" id="img-logo2" alt="Logo">
     </main>
+    <div class="container-footer">
+        <footer>
+            <p class="p-footer">
+                <span class="span-footer">Chervet Micaela Dana</span> | © Argentina Programa 2023
+            </p>
+            <p class="p-footer">Buenos Aires, Argentina</p>
+        </footer>
+    </div>
 </body>
 
 </html>
