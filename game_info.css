@@ -1,0 +1,58 @@
+.cointainer-section-games {
+    display: flex;
+    flex-direction: column;
+    color: rgb(53, 122, 113);
+    align-items: center;
+  }
+  
+  .article-games {
+    display: grid;
+    margin-left: 20vh;
+    margin-right: 28vh;
+    color: rgb(53, 122, 113);
+    font-size: 1vw;
+  }
+  .title-columns-games {
+    text-align: center;
+    margin: 0%;
+    border-style: solid;
+    padding: 10px;
+    background: #58aaad80;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .p-games,
+  .titulos-game {
+    text-align: center;
+    margin: 0.5%;
+  }
+  
+  .h1-g {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 0.5%;
+  }
+  
+  .table-games {
+    border-color: rgb(53, 122, 113);
+    border-style: solid;
+    border-spacing: 0;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 2%;
+  }
+  
+  .td-games {
+    border-style: solid;
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  
+  .th-games{
+    background: #58aaad80;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-style: solid;
+    padding: 10px;
+  }
+  

@@ -1,0 +1,28 @@
+.article-rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20vh;
+    margin-right: 28vh;
+    color: rgb(53, 122, 113);
+  }
+  
+  .lista2 {
+    list-style: lower-alpha;
+  }
+  
+  .lista3 {
+    list-style: circle;
+  }
+ 
+
+  .titulos-rules{
+    text-align: center;
+    margin: 0%;
+  }
+
+  .h1-rules{
+    font-size: 150%;
+    margin-top: 0%;
+    margin-bottom: 0;
+  }

@@ -29,7 +29,10 @@ html {
   width: 80vw;
   height: 50vh;
   border-color: rgb(250, 112, 88);
-  border-style: solid;
+  border-style: double;
+  background-image: url(./assets/design1_image1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /*--------LOGO DERECHA--------*/
@@ -38,6 +41,30 @@ html {
   position: absolute;
   right: 2%;
   left: 84%;
+}
+
+/*------IMAGENES DERECHA------*/
+.container-imgsderecha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  margin-top: 0.5%;
+  margin-top: 15.5%;
+}
+.img-der {
+  width: 16%;
+  right: 2%;
+  left: 84%;
+  margin-bottom: 1%;
+  margin-right: 0.2%;
+  margin-top: 0;
+  border-radius: 10px;
+  transition: 1s;
+  border-radius: 10px;
+}
+.img-transf:hover {
+  transform: scale3d(200%, 200%, 200) translateX(-50%);
 }
 
 /*------CONTAINER HEADER------*/
@@ -124,7 +151,6 @@ html {
 .h2-sect {
   margin-left: 20px;
 }
-
 .h3-art {
   font-size: 25px;
   margin-bottom: -0.8rem;
@@ -137,17 +163,20 @@ html {
   font-weight: normal;
   margin-bottom: -0.8rem;
 }
-
+.a{
+  text-decoration: none;
+}
 /*--------LOGO DE ABAJO-------*/
 .logo2 {
   width: 10%;
   position: fixed;
   z-index: 2;
-  bottom: 3%;
-  right: 10px;  transition: 1s;
+  bottom: -2%;
+  right: 10px;
+  transition: 1s;
 }
-.img-logo:hover{  
-  transform: scale(70%);
+.img-logo:hover {
+  transform: scale(80%);
 }
 
 /*-----------FOOTER-----------*/
@@ -161,10 +190,12 @@ html {
   font-weight: bold;
   text-align: center;
   font-size: 18px;
-  margin: 0.5rem;
-  margin: 0;
+  margin-bottom: -1.5%;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .span-footer {
   font-weight: bold;
   color: #9be0ec;
 }
+
