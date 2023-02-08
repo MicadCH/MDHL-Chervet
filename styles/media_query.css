@@ -48,6 +48,11 @@
   .article {
     margin-left: 1%;
   }
+
+  .img-logo {
+    width: 20%;
+  }
+  
   /*GAMES*/
   .table-games {
     margin: 5%;
