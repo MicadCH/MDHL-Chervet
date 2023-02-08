@@ -1,0 +1,90 @@
+@media screen and (max-width: 800px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 5vw;
+  }
+  .banner {
+    border-radius: 30px;
+    width: 94vw;
+    height: 30vh;
+  }
+  nav {
+    width: 25%;
+    top: 35%;
+  }
+  .logo {
+    position: revert;
+    width: 25%;
+    margin-left: 40%;
+  }
+  .img-der {
+    text-align: center;
+    width: 50%;
+    transition: 1s;
+    margin-left: 25%;
+  }
+  .img-transf:hover {
+    transform: scale3d(150%, 150%, 150%) translateX(17%);
+  }
+  .container-imgsderecha {
+    position: inherit;
+    align-items: flex-start;
+    margin-top: -2%;
+  }
+
+  .conteiner-section {
+    display: flex;
+    flex-direction: column;
+    color: rgb(53, 122, 113);
+  }
+
+  .foto-section {
+    margin-top: 2%;
+    width: 44vw;
+    height: 23vh;
+    margin-left: 24vh;
+  }
+
+  .article {
+    margin-left: 1%;
+  }
+  /*GAMES*/
+  .table-games {
+    margin: 5%;
+  }
+  .titulos-games {
+    font-size: 200%;
+  }
+
+  .iframe-mapa {
+    width: 25vw;
+    height: 30vh;
+  }
+
+  .article-games {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .article-g {
+    font-size: 220%;
+  }
+
+  /*REGISTRO*/
+  .sec-registro {
+    margin-left: 27%;
+  }
+
+  /*RULES*/
+  .article-rules {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  /*REGISTRO FOTOS*/
+  .container-imgsderecha-registro {
+    margin-top: 3%;
+    display: table;
+    margin-bottom: 1%;
+  }
+}
