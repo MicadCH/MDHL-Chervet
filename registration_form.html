@@ -18,11 +18,6 @@
             <h1 class="titulo">Registration Form MDHL</h1>
             <a class="banner" href="./styles/styles.css"></a>
             <img class="logo" src="/assets/Logo_Mighty_ducks-01.png" alt="Logo">
-            <div class="container-imgsderecha">
-                <img class="img-der img-transf" src="/assets/hockey_1.jpg" alt="">
-                <img class="img-der img-transf" src="/assets/hockey_2.jpg" alt="">
-                <img class="img-der img-transf" src="/assets/hockey_3.jpg" alt="">
-            </div>
         </div>
         <nav class="container-nav">
             <a href="./index.html" class="btn">Home</a>
@@ -36,6 +31,7 @@
             <h2 id="h2">Rules!</h2>
         </div>
     </header>
+
     <main class="main">
         <section class="sec-registro">
             <form action="./show_data.html" method="get">
@@ -74,99 +70,105 @@
                     </div>
                 </fieldset>
 
-                <fieldset>
-                    <legend>Gender</legend>
-                    <label>
-                        Female
-                        <input type="radio" name="Gender" id="female" value="F">
-                    </label>
-                    <label>
-                        Male
-                        <input type="radio" name="Gender" id="male" value="M">
-                    </label>
-                    <label>
-                        Other
-                        <input type="radio" name="Gender" id="other" value="O">
-                    </label>
+                <fieldset class="fset-registro">
+                    <legend class="legend">Gender</legend>
+                    <div class="div-label">
+                        <label class="label">
+                            Female
+                            <input class="input2" type="radio" name="Gender" id="female" value="F">
+                        </label>
+                    </div>
+                    <div class="div-label">
+                        <label class="label">
+                            Male
+                            <input class="input2" type="radio" name="Gender" id="male" value="M">
+                        </label>
+                    </div>
+                    <div class="div-label">
+                        <label class="label">
+                            Other
+                            <input class="input2" type="radio" name="Gender" id="other" value="O">
+                        </label>
+                    </div>
+
                 </fieldset>
 
-
-                <fieldset>
-                    <legend>Grade Pre-School</legend>
-                    <label>
+                <fieldset class="fset-registro">
+                    <legend class="legend">Grade Pre-School</legend>
+                    <label class="label">
                         1st
-                        <input type="checkbox" name="Grade" id="1" value="1sr">
+                        <input class="input2" type="radio" name="Grade" id="1" value="1sr">
                     </label>
-                    <label>
+                    <label class="label">
                         2nd
-                        <input type="checkbox" name="Grade" id="2" value="2nd">
+                        <input class="input2" type="radio" name="Grade" id="2" value="2nd">
                     </label>
-                    <label>
+                    <label class="label">
                         3rd
-                        <input type="checkbox" name="Grade" id="3" value="3rd">
+                        <input class="input2" type="radio" name="Grade" id="3" value="3rd">
                     </label>
-                    <label>
+                    <label class="label">
                         4th
-                        <input type="checkbox" name="Grade" id="4" value="4th">
+                        <input class="input2" type="radio" name="Grade" id="4" value="4th">
                     </label>
-                    <label>
+                    <label class="label">
                         5th
-                        <input type="checkbox" name="Grade" id="5" value="5th">
+                        <input class="input2" type="radio" name="Grade" id="5" value="5th">
                     </label>
                 </fieldset>
 
-                <fieldset>
-                    <legend>Which elementary school do you live near?</legend>
-                    <label>
+                <fieldset class="fset-registro">
+                    <legend class="legend">Which elementary school do you live near?</legend>
+                    <label class="label">
                         AJ Katzenmaier
-                        <input type="checkbox" name="SchoolNearby" id="AJK" value="AJ Katzenmaier">
+                        <input class="input2" type="checkbox" name="SchoolNearby" id="AJK" value="AJ Katzenmaier">
                     </label>
-                    <label>
+                    <label class="label">
                         Greenbay
-                        <input type="checkbox" name="SchoolNearby" id="GB" value="Greenbay">
+                        <input class="input2" type="checkbox" name="SchoolNearby" id="GB" value="Greenbay">
                     </label>
-                    <label>
+                    <label class="label">
                         Howard A Yeager
-                        <input type="checkbox" name="SchoolNearby" id="HAY" value="Howard A Yeager">
+                        <input class="input2" type="checkbox" name="SchoolNearby" id="HAY" value="Howard A Yeager">
                     </label>
-                    <label>
+                    <label class="label">
                         Marjorie P Hart
-                        <input type="checkbox" name="SchoolNearby" id="MPJ" value="Marjorie P Hart">
+                        <input class="input2" type="checkbox" name="SchoolNearby" id="MPJ" value="Marjorie P Hart">
                     </label>
-                    <label>
+                    <label class="label">
                         North Elementary
-                        <input type="checkbox" name="SchoolNearby" id="NE" value="North Elementary">
+                        <input class="input2" type="checkbox" name="SchoolNearby" id="NE" value="North Elementary">
                     </label>
-                    <label>
+                    <label class="label">
                         South Elementary
-                        <input type="checkbox" name="SchoolNearby" id="SE" value="South Elementary">
+                        <input class="input2" type="checkbox" name="SchoolNearby" id="SE" value="South Elementary">
                     </label>
                 </fieldset>
 
-                <fieldset>
-                    <legend>What position(s) do you normally play? (check all that appy)</legend>
-                    <label>
+                <fieldset class="fset-registro">
+                    <legend class="legend">What position(s) do you normally play? (check all that appy)</legend>
+                    <label class="label">
                         Forward
-                        <input type="checkbox" name="Position" id="forward" value="Forward">
+                        <input class="input2" type="checkbox" name="Position" id="forward" value="Forward">
                     </label>
-                    <label>
+                    <label class="label">
                         Defense
-                        <input type="checkbox" name="Position" id="defense" value="Defense">
+                        <input class="input2" type="checkbox" name="Position" id="defense" value="Defense">
                     </label>
-                    <label>
+                    <label class="label">
                         Midfield
-                        <input type="checkbox" name="Position" id="midfield" value="Midfield">
+                        <input class="input2" type="checkbox" name="Position" id="midfield" value="Midfield">
                     </label>
-                    <label>
+                    <label class="label">
                         Goalkeeper
-                        <input type="checkbox" name="Position" id="goalkeeper" value="Goalkeeper">
+                        <input class="input2" type="checkbox" name="Position" id="goalkeeper" value="Goalkeeper">
                     </label>
                 </fieldset>
-            
-                <fieldset>
-                    <legend>Uniform Size</legend>
-                    <label for="uniform-size">Uniform Size:</label>
-                    <select name="UniformSize" id="uniform-size">
+
+                <fieldset class="fset-registro">
+                    <legend class="legend">Uniform Size</legend>
+                    <label class="label" for="uniform-size">Uniform Size:</label>
+                    <select class="input" name="UniformSize" id="uniform-size">
                         <option value="" selected disabled>--Select The Size--</option>
                         <option value="Youth Smal">Youth Smal</option>
                         <option value="Youth Medium">Youth Medium</option>
@@ -178,50 +180,44 @@
                     </select>
                 </fieldset>
 
-                <fieldset>
-                <h3>Permission To Play</h3>
-                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League” accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.</p>
-                <p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
-                <div class="div-label">
-                    <label class="label" for="parent-guardian-s">Parent/GuardianSignature: </label>
-                    <input class="input" id="parent-guardian-s" type="text" name="Parent/GuardianSignature" placeholder="Parent/GuardianSignature">
-                </div>
+                <fieldset class="fset-registro">
+                    <h3 class="h3-regis">Permission To Play</h3>
+                    <p class=p-regis>I, the parent or guardian of the minor registrant, agree that the registrant and I
+                        will abide by
+                        all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                        physical injury associated with hockey and in consideration for the “League” accepting the
+                        registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise
+                        indemnify MDHL, their employees and associated personnel and volunteers, including the
+                        facilities used for practices and games, against any claim by or on behalf of the registrant as
+                        a result of the registrant's participation in the programand/orbeing transported to or from MDHL
+                        sponsored activities, which transportation.</p>
+                    <p class="p-regis">By signing below, I herebyagree andauthorizethe above.In addition, by signing
+                        below, lalso
+                        acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                    <div class="div-label">
+                        <label class="label" for="parent-guardian-s">Parent/GuardianSignature: </label>
+                        <input class="input" id="parent-guardian-s" type="text" name="Parent/GuardianSignature"
+                            placeholder="Parent/Guardian">
+                    </div>
 
-                <div class="div-label">
-                    <label class="label" for="date">Date: </label>
-                    <input class="input" type="text" id="date" name="Date" placeholder="Date">
+                    <div class="div-label">
+                        <label class="label" for="date">Date: </label>
+                        <input class="input" type="text" id="date" name="Date" placeholder="Date">
+                    </div>
+                </fieldset>
+                <div class="boton-regis">
+                    <button class="boton" type="submit">Send</button>
+                    <button class="boton" type="reset">Reset</button>
                 </div>
-            </fieldset>
-                <button class="boton-enviar" type="submit">Send!</button>
-                <button class="boton-reset" type="reset">Reset</button>
-
             </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </section>
         <img class="logo2 img-logo" src="/assets/Logo_Mighty_ducks-01.png" id="img-logo2" alt="Logo">
     </main>
+    <div class="container-imgsderecha-registro">
+        <img class="img-der img-transf" src="/assets/hockey_1.jpg" alt="">
+        <img class="img-der img-transf" src="/assets/hockey_2.jpg" alt="">
+        <img class="img-der img-transf" src="/assets/hockey_3.jpg" alt="">
+    </div>
     <div class="container-footer">
         <footer>
             <p class="p-footer">
