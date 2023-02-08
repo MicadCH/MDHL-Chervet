@@ -1,6 +1,13 @@
+/*---------NOMALIZE----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*---------HTML FONDO---------*/
 html {
-  background-image: url(./assets/fondo.jpg);
+  background-image: url(../assets/fondo.jpg);
   background-repeat: round;
 }
 /*-------HEADER Y MAIN--------*/
@@ -30,7 +37,7 @@ html {
   height: 50vh;
   border-color: rgb(250, 112, 88);
   border-style: double;
-  background-image: url(./assets/design1_image1.jpg);
+  background-image: url(../assets/design1_image1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -79,6 +86,7 @@ html {
   display: flex;
   flex-direction: column;
   margin-top: 1%;
+  margin-left: -2%;
   position: absolute;
   border-style: outset;
   border-color: #fa7058;
@@ -146,6 +154,7 @@ html {
 .article {
   padding-left: 1%;
   padding-right: 15%;
+  margin: 0.5%;
 }
 
 .h2-sect {
@@ -154,8 +163,9 @@ html {
 .h3-art {
   font-size: 25px;
   margin-bottom: -0.8rem;
+  margin: 1%;
 }
-.h-sec{
+.h-sec {
   font-size: 20px;
   margin-bottom: 1rem;
 }
@@ -166,8 +176,10 @@ html {
 .h3-cont {
   font-weight: normal;
   margin-bottom: -0.8rem;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
-.a{
+.a {
   text-decoration: none;
 }
 /*--------LOGO DE ABAJO-------*/
@@ -194,12 +206,11 @@ html {
   font-weight: bold;
   text-align: center;
   font-size: 18px;
-  margin-bottom: -1.5%;
-  padding-bottom: 7px;
-  padding-top: 7px;
+  margin-bottom: -0.8%;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
 }
 .span-footer {
   font-weight: bold;
   color: #9be0ec;
 }
-
