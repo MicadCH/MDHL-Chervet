@@ -215,3 +215,76 @@ html {
   font-weight: bold;
   color: #9be0ec;
 }
+
+/*---------------MEDIA QUERY----------------*/
+
+@media screen and (max-width: 768px) {
+  .titulo {
+    font-size: 5vw;
+  }
+  .banner {
+    border-radius: 30px;
+    width: 94vw;
+    height: 30vh;
+  }
+  nav {
+    width: 25%;
+  }
+  .logo {
+    position: revert;
+    width: 25%;
+    margin-left: 40%;
+  }
+  .img-der {
+    text-align: center;
+    width: 50%;
+    transition: 1s;
+    margin-left: 25%;
+    
+  }
+  .img-transf:hover {
+    transform: scale3d(150%, 150%, 150%);
+  }
+  .container-imgsderecha {
+    position: inherit;
+    align-items: flex-start;
+    margin-top: -2%;
+  }
+}
+
+
+/*
+@media screen and (max-width: 375px) {
+  header > img {
+    width: 5rem;
+    height: auto;
+  }
+
+  .card {
+    flex-direction: column;
+    height: 25rem;
+  }
+  .card > img {
+    width: 100%;
+    height: 60%;
+  }
+  .card > div {
+    width: 100%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 616px) {
+  .big {
+    flex-direction: column;
+    height: auto;
+  }
+  .big > img,
+  .big > div {
+    width: 100%;
+  }
+  .big > div {
+    height: auto;
+  }
+}
+*/
